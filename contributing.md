@@ -34,6 +34,21 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 
 People *love* thorough bug reports. I'm not even kidding.
 
+## Commit Guidelines
+
+Kindly follow a conventional commit style for all commit messages and descriptions for this repository. Conventional commits play a huge role in understanding important changes to the source code. The more informative a commit, the better.
+
+Examples of good commit messages are:
+
+- `chore(repo): nest new devops-twitter-bot`
+- `feat(hashtag): add hashtag #devops to one of the target hashtags`
+- ...
+
+Kindly go through the following resources to gain more information on the same:
+
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Getting Started With Conventional Commits](https://blog.pradumnasaraf.co/getting-started-with-conventional-commits)
+- [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
 
 ## License
 By contributing, you agree that your contributions will be licensed under its MIT License.
