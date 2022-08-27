@@ -21,7 +21,7 @@ Enjoy!
 
 If you like this repo, be sure to ⭐ it.
 
-Please read [`contributing guidelines`]() before submitting new Resources.
+Please read [`contributing guidelines`](https://github.com/rohitg00/devops-twitter-bot/blob/main/contributing.md) before submitting new Resources.
 
 --- 
 
