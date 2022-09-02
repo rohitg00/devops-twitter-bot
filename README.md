@@ -23,6 +23,12 @@ If you like this repo, be sure to ⭐ it.
 
 Please read [`contributing guidelines`](https://github.com/rohitg00/devops-twitter-bot/blob/main/contributing.md) before submitting new Resources.
 
+
+## Thanks to all contributors ❤
+ <a href = "https://github.com/rohitg00/devops-twitter-bot/graphs/contributors">
+   <img src = "https://contrib.rocks/image?repo=rohitg00/devops-twitter-bot"/>
+ </a>
+
 --- 
 
 Initially created by [Rohit Ghumare](https://github.com/rohitg00/) on [Twitter](https://twitter.com/ghumare64).
