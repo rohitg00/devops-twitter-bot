@@ -1,0 +1,115 @@
+name: "🐞 Bug Report"
+description: Create a new ticket for a bug you found
+title: "🐞 [BUG] : " 
+labels: [
+  "bug" 
+] 
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: "Description"
+      description: Please enter an explicit description of your issue
+      placeholder: Short and explicit description of your incident...
+    validations:
+      required: true
+  - type: input
+    id: reprod-url
+    attributes:
+      label: "GitHub URL"
+      description: Please enter your GitHub URL where the issue was encountered
+      placeholder: ex. https://github.com/USERNAME/REPO-NAME
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behaviour
+    attributes:
+      label: Expected behaviour
+      description: A concise description of what you expected to happen.
+      placeholder:  --Tell us what should happen--  
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behaviour
+    attributes:
+      label: Actual behaviour
+      description: A concise description of what you're experiencing
+      placeholder: --Tell us what happens instead-- 
+    validations:
+      required: true
+  - type: textarea
+    id: reprod-steps
+    attributes:
+      label: "Reproduction steps"
+      description: Please enter an explicit description of your issue
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+       
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: |
+        ![Screenshot](https://user-images.githubusercontent.com/12345678/12345678-12345678-12345678-12345678.png)
+       
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs"
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+       
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: "Browsers"
+      description: What browsers are you seeing the problem on ?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Opera
+        - Brave
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: "OS"
+      description: What is the impacted environment ?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - iOS
+        - Android
+        - Other
+    validations:
+      required: false
+  - type: input
+    id: environment-version
+    attributes:
+      label: "Environment Version"
+      description: Mention the environment details where this bug was encountered
+      placeholder: ex. Windows 11, Ubuntu 20.04.4 LTS, iOS 15.4, Android 11, etc.
+    validations:
+      required: true    
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the issue you are encountering!
+    validations:
+      required: false
