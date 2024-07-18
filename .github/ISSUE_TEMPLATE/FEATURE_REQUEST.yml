@@ -29,14 +29,18 @@ body:
       placeholder: "#Issues IDs (if any)"
     validations:
       required: false
-  - type: textarea
-    id: summary
-    attributes:
-      label: "Summary"
-      description: Provide a brief explanation of the feature
-      placeholder: Describe in a few lines what the feature does
-    validations:
-      required: true
+- type: textarea
+  id: summary
+  attributes:
+    label: "Summary"
+    description: |
+      Clearly describe the desired feature or enhancement.
+      * **Problem:** Briefly explain the issue or need.
+      * **Solution:** Outline the proposed solution or feature.
+      * **Benefits:** Highlight the advantages of implementing this feature.
+    placeholder: "Problem: [Briefly describe the issue] | Solution: [Proposed feature] | Benefits: [Expected advantages]"
+  validations:
+    required: true
   - type: textarea
     id: basic_example
     attributes:
