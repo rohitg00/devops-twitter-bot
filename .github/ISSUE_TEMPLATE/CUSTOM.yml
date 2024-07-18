@@ -1,6 +1,6 @@
-name: "⁉️ Issue"
-description: Create a ticket for new Issue
-title: "⁉️ [ISSUE] : " 
+name: "⁉️ Custom Issue"
+description: Create a ticket for new Custom Issue
+title: "⁉️ [CUSTOM ISSUE] : " 
  
 body:
   - type: textarea
